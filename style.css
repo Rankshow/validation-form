@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    background-size: auto;
+    font-weight: bold;
+}
+
+body{
+     background-image: url(myearth.jpg);
+     background-position: center;
+     margin: 15%;
+     padding: 0px;
+     padding-left: 20%;
+}
+
+
+.flow{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: whitesmoke;
+}
+
+fieldset{
+    text-align: center;
+    margin-top: auto;
+    background-image: url(Sunrise.jpg);
+    margin: 10%;
+    padding: 20%;
+    opacity: -20px;
+}
+footer{
+    text-decoration: whitesmoke;
+    text-align: left;   
+}
+.hide{
+    display: none;
+}
