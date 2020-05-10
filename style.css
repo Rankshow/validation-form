@@ -1,35 +1,32 @@
-*{
-    padding: 0px;
-    background-size: auto;
-    font-weight: bold;
-}
-
 body{
      background-image: url(myearth.jpg);
      background-position: center;
-     margin: 15%;
-     padding: 0px;
-     padding-left: 20%;
+     box-sizing: border-box;
+     /* transform: translate(50px,150px); */
 }
-
-
 .flow{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: whitesmoke;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 fieldset{
-    text-align: center;
-    margin-top: auto;
     background-image: url(Sunrise.jpg);
-    margin: 10%;
-    padding: 20%;
-    opacity: -20px;
+    width:600px;
+    margin: 0px -372px 0px 0px;
+    padding: 5%;
+    margin: 16%;
 }
-footer{
-    text-decoration: whitesmoke;
-    text-align: left;   
+fieldset input{
+    width: 250px;
+    box-shadow:  inset 0px 0px solid rgb(77, 60, 228);
+    /* margin-top: 5px; */
+    transition: box-shadow 5s;
+}
+ fieldset footer{
+    color: lavender;
+    padding: 10px;
 }
 .hide{
     display: none;
